@@ -130,6 +130,6 @@ Több példa, köztük:
 #### 🔔 Triggerek
 `AFTER INSERT` trigger, amely az `employee_salary` új sorai alapján demográfiai rekordot is beszúr.
 
-####⏰ Események (`Events`)
+#### ⏰ Események (`Events`)
 30 másodpercenként futó esemény, amely eltávolítja a nyugdíjasokat (age >= 60) az `employee_demographics` táblából.
 Aktiválása szükséges: `SET GLOBAL event_scheduler = ON`.
